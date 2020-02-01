@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+  <title>Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class = "wrapper">
+      <div class="container">
+        <form action="post" id = "form">
+          <h2 class="form-head">Сохрани свой аккаунт</h2>
+          <p class = "form-underhead">Получи бесплатно неограниченное количество форм, вопросов и ответов.</p>
+          <input class="form-input"  id="input-name" minlength="2" name="name" type="text" placeholder="Имя или никнейм">
+          <input class="form-input"  id="input-email" name="email"  type="text" placeholder="Email">
+          <input class="form-input"  id="input-password" name="password" type="text" placeholder="Пароль">
+          <button class="form-btn" type="submit">Сохранить &gt;</button>
+          <p>Уже есть аккаунт?<a href="#" class="form-link">Войти</a></p>
+          
+        </form>
+        <img class="group group-up" src="img/Group1.png" alt="Group1">
+        <img class="group group-down" src="img/Group2.png" alt="Group2">
+      </div>
+      
+    </section>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="/jquery.maskedinput.min.js"></script>
+    <script src="jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

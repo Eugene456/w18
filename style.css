@@ -1,0 +1,92 @@
+.wrapper{
+  background-image: url("img/bg.jpg");
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 1000px;
+  height: 700px;
+  background-color: #fff;
+  position: relative;
+  background-image: url(img/image-form.png);
+  background-repeat: no-repeat;
+  background-position: left 63px center;
+  display: flex;
+  justify-content: flex-end;
+}
+.group{
+  position: absolute;
+}
+
+.group-up{
+  top:-55px;
+  left:112px;
+}
+.group-down{
+  bottom:-55px;
+  right:112px;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 333px;
+  margin-right: 90px;
+  margin-top: 95px;
+}
+.form-head{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.form-underhead{
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+.form-input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #888;
+  padding: 20px 10px 20px 26px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #949494;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+#input-name{
+ background-image: url(img/Forma\ 1.svg);
+}
+#input-email{
+  background-image: url(img/Forma2.svg);
+}
+#input-password{
+  background-image: url(img/forma3.svg);
+}
+.form-btn{
+  border: none;
+  background-color: #82c5c3;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 35px;
+  width: 179px;
+  height: 54px;
+}
+.form-link{
+  text-decoration: none;
+  margin-left: 15px;
+  color: #f69a7a;
+}
+.error{
+  border: 1px solid red;
+}
+label.error{
+  border:none;
+  color: red;
+}
